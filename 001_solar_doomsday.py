@@ -45,7 +45,6 @@ Use verify [file] to test your solution and see how it does. When you are finish
 
 '''
 
-
 def solution(area):
 
     def largest_square_area(area):
