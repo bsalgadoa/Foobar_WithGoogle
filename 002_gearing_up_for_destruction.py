@@ -54,46 +54,49 @@ Output:
     # r is always the radius of the first gear, r = r0
     # Python 2.7.13 sandbox (!)
 
-## Line of tought:
-    # First I tried to solve this problem for 3 gears (p[0], p[1] and p[2])
-        # considering p[2]-p[0] = 3r2 + 2r1 and it didn't went as expected
-        # so instead of considering 3r2, I tried to solve it again replacing 3r2 for r + r2 (r = 2r2)
+## Approach:
+    # I first tried to solve this problem for 3 gears (p[0], p[1] and p[2])
+        # considering p[2]-p[0] = 3r2 + 2r1, it didn't went as expected so,
+        # instead of considering 3r2, I tried to solve it again this time replacing 3r2 for r + r2 (r = 2r2)
         # total distance = p[2]-p[0] = 2r + 2r1 + r2
         # from here I deducted that:
             # d0 = p[1] - p[0] = r + r1
             # d1 = p[2] - p[1] = r1 + r2
             # dn = p[n+1] - p[n] = rn + rn+1
             # and we know that r = 2r2 (for n=2), so r = 2rn (for n)
-                # this means that we can always have n equations to n gears and therefore solve it to r
-                # using 3 gears for demosntration:
-                    # p[1] - p[0] = r + r1      r1 = p[1] - p[0] - 2r2
-                    # p[2] - p[1] = r1 + r2 <=> r2 = p[2] - 2p1 + p[0] + 2r2
-                    # r = r2                    r = 2 * (-p[0] + 2p[1] - p[2]) <<<
+        # this means that we'll always have n equations to n gears and therefore
+        # be able to find r for n gears.
 
-# Then I solved for 4 gears, 5 and 6, and noticed that
-# a patern emerges in r when the number of gears is odd or even:
-    # len == 3:
-    #     r = 2 * (-p[0] + 2p[1] - p[2])
-    # len == 4:
-    #     r = 2/3 * (-p[0] + 2p[1] - 2p[2] + p[3])
-    # len == 5:
-    #     r = 2 * (-p[0] + 2p[1] - 2p[2] + 2p[3] - p[4])
-    # len == 6:
-    #     r = 2/3 * (-p[0] + 2p[1] - 2p[2] + 2p[3] - 2p[4] + p[5])
+        # from here I first solved for 3 gears as follows:
+            # p[1] - p[0] = r + r1      r1 = p[1] - p[0] - 2r2
+            # p[2] - p[1] = r1 + r2 <=> r2 = p[2] - 2p1 + p[0] + 2r2
+            # r = r2                    r = 2 * (-p[0] + 2p[1] - p[2]) <<<
 
-# Therefore we can simplify and state that if lenght is:
-    # even:
-        # r = 2/3 * (-p[0] + 2*(sum p1_to_pn_minus2) + p[-1])
-    # odd:
-        # r = 2 * (-p[0] + 2*(sum p1_to_pn_minus2) + p[-1])
+        # Then I solved for 4 gears, 5 and 6, and noticed that
+        # a patern emerges in r when the number of gears is odd or even:
+            # len == 3:
+            #     r = 2 * (-p[0] + 2p[1] - p[2])
+            # len == 4:
+            #     r = 2/3 * (-p[0] + 2p[1] - 2p[2] + p[3])
+            # len == 5:
+            #     r = 2 * (-p[0] + 2p[1] - 2p[2] + 2p[3] - p[4])
+            # len == 6:
+            #     r = 2/3 * (-p[0] + 2p[1] - 2p[2] + 2p[3] - 2p[4] + p[5])
 
-# Now that we've found a way to determine r, in order to determine if its possible and return the solution
-    # we must check first if:
-        # r >= 2, because the minimum radius is 1 and r = 2rn.
-        # and also that all the gears have radius >= 1.
-            # note: overlaping gears or gears that don't touch, means that there will be gears with radius < 1.
+        # we can simplify and state that if lenght is:
+            # even:
+                # r = 2/3 * (-p[0] + 2*(sum p1_to_pn_minus2) + p[-1])
+            # odd:
+                # r = 2 * (-p[0] + 2*(sum p1_to_pn_minus2) + p[-1])
 
-    # if so, return the r in a fraction in its simple form.
+    # Now that we've found a way to determine r
+    # in order to determine if it's possible and if so, return the solution
+        # we must make sure that:
+            # r >= 2, because the minimum radius is 1 and r = 2rn.
+            # and also that all the gears have radius >= 1.
+                # note: overlaping gears or gears that don't touch, means that there will be gears with radius < 1.
+
+        # if so, return the r in a fraction in its simple form.
 
 
 from fractions import Fraction
@@ -108,7 +111,6 @@ def solution(pegs):
         # and r must be > 2 ->> "(...)from a radius of 1 on up"
         if r < 2:
             return [-1, -1]
-
 
     ## more than 2 gears:
     else:
@@ -152,5 +154,5 @@ def solution(pegs):
 if __name__ == '__main__':
     #solution()
     #import timeit as t
-    print("solution:", solution([10,50,80,87.5]))
+    print("solution:", solution([10,50,80,110]))
     #print(t.timeit(solution, number=100))
