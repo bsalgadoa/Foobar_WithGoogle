@@ -10,10 +10,10 @@ Now last Saturday (Jul 7, 2022) - just two and a half months later - I was googl
 
  I honestly thought it was some kind of *Google's homepage commemorative day* and moved on with what I was doing but, **fortunately (!)**, something caught my attention and I decided to left that tab open to come back later, only to realize that it was a **Google Foobar Challenge!**
 
- For those who are not familiar with the challenge, this is Google’s invite only secret hiring process for programmers and developers all across the world, that you can do with Python or Java.[^1]
- 
- Apparently that are only two ways to do it, one is trough Direct Invitation (like happened to me) and the other is with a Personal Invitation sent by someone that had previously participated. 
- Once invited, you get to solve coding challenges and if you complete them, some say you'll get a shot at a direct interview with Google. 
+ >For those who are not familiar with the challenge, this is Google’s invite only secret hiring process for programmers and developers all across the world, that you can do with Python or Java.[^1]
+ >
+ >Apparently that are only two ways to do it, one is trough Direct Invitation (like happened to me) and the other is with a Personal Invitation sent by someone who had previously participated. 
+ >Once invited, you get to solve coding challenges and if you complete them, some say you'll get a shot at a direct interview with Google. 
 
 I am pursuing a new career and I've been learning programming, doing AoC and CodeWars so, as soon as I realized what it was, clicking at `I want to play` was a nobrainer! 
 
