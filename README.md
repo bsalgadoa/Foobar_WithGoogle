@@ -20,7 +20,7 @@ I am pursuing a new career and I've been learning programming, doing AoC and Cod
  There are 5 levels in total[^note] to complete and so far I've solved Level 1 and challenge 1 of Level 2.
  Once you request a challenge, the clock starts ticking and you're in for a ride! 
 
-I don't know where this will take me, but this is freakin awesome!! 
+I don't know where this will take me, but this is freakin' awesome!! 
  I'm very excited with the challenge itself, but also very happy and proud of what I've accomplished. I can look back and humbly say that (so far) I've solved 2 challenges of Google and damn, that feels good :)
 
 >*Level 1 status*
