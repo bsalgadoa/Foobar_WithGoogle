@@ -116,14 +116,17 @@ def solution(pegs):
     else:
         p = pegs # readability simplification.
         p1_to_pn_minus2 = 0 # store the sum of p's, for every p between p[1] to p[n-2].
-        s = 1 # we'll use this to invert the signal while calculating p1_to_pn_minus2.
+        ### s = 1 # firs approach to invert the signal while calculating p1_to_pn_minus2.
 
         # determine p1_to_pn_minus2:
+        # p1_to_pn_minus2 sum inverts the signal (+ or -) for every p[n] between p[1] to p[n-2].
         for i in range(1,len(pegs)-1):
-            p1_to_pn_minus2 += s * p[i]
-            # p1_to_pn_minus2 sum inverts the signal (+ or -) for every p[n] between p[1] to p[n-2].
-            # we'll use -1s to do so.
-            s *= -1
+            p1_to_pn_minus2 += ((-1)**(i+1)) * p[i]
+
+            ### first approach to invert +/-:
+                ### used -1*s to do so:
+                ### p1_to_pn_minus2 += s * p[i]
+                ### s *= -1
 
         # now we can determine r:
         if len(pegs) % 2: # odd
