@@ -20,8 +20,9 @@ I am pursuing a new career and I've been learning programming, doing AoC and Cod
  There are 5 levels in total[^note] to complete and so far I've solved Level 1 and challenge 1 of Level 2.
  Once you request a challenge, the clock starts ticking and you're in for a ride! 
 
-I don't know where this will take me, but this is freakin' awesome!! 
- I'm very excited with the challenge itself, but also very happy and proud of what I've accomplished. I can look back and humbly say that (so far) I've solved 2 challenges of Google and damn, that feels good :)
+I don't know where this will take me and I have no illusions here. I'm not a genius and probably wont be at their desired level but so what? This is freakin' awesome anyway!! 
+ 
+I'm very excited with the challenge itself, but also very happy and proud of what I've accomplished. I can look back and humbly say that (so far) I've solved 2 challenges of Google and damn, that feels good :)
 
 >*Level 1 status*
 > <img width="1552" alt="Screenshot 2022-07-07 at 12 02 05" src="https://user-images.githubusercontent.com/102381147/177758750-d9b3dac0-cb68-4175-8b8e-7ec0eea3a7c5.png">
@@ -29,7 +30,7 @@ I don't know where this will take me, but this is freakin' awesome!!
 > <img width="1552" alt="Screenshot 2022-07-07 at 12 01 30" src="https://user-images.githubusercontent.com/102381147/177758786-996ba24e-8bdb-499d-a999-ff5c88771d15.png">
 
 
-Lastly, a special thanks to my *Senpai*, **kiwi**, who have been challenging me for the last couple of months! 
+Lastly, a special thanks to my *Senpai*, **Kiwi**, who have been challenging me for the last couple of months! 
  Without your mentoring, I wouldn't had made such progress in such short time. Thanks man! 
 
 [^1]: https://bootcamp.uxdesign.cc/google-foobar-googles-secret-hiring-process-bc92f011c6ad#:~:text=What%20is%20Google%20Foobar%3F,individual%20who%20cleared%20the%20challenge.
