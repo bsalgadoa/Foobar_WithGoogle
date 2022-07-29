@@ -33,5 +33,22 @@ I'm very excited with the challenge itself, but also very happy and proud of wha
 Lastly, a special thanks to my *Senpai*, **Kiwi**, who have been challenging me for the last couple of months! 
  Without your mentoring, I wouldn't had made such progress in such short time. Thanks man! 
 
+------
+UPDATE
+------
+
+So I am a subscriber of [The Pragmatic Engineer](https://blog.pragmaticengineer.com/) and lately, Gergely Orosz (the autor), have been talking about hiring freezes and Layoffs across the industry. 
+Most recently he shared that "Google put a two-week hiring freeze in place" and this week (The Scoop #20) he stated that "Google froze entry-level (L3) software engineer positions entirely.". 
+
+Well this means only one thing for me: opportunity! I'll have more time to prepare myself!
+
+Whitout this freezing, my odds of being called for an interview, were already minimum, I would even say, almost null. Now I'm sure are zero! 
+So, instead of keep doing the challenges that I still have ahead, I'll take this as an opportunity to buy me some time, learn, become better, get stronger while waiting for better news. Then, when the wind changes, I'll be more prepared and have better odds (At least not zero 😅). 
+
+So, if you're reading this, no, I did not gave up. I will catch the 🐇 😁
+
+I'll keep in touch! 
+Enjoy your holidays! 
+
 [^1]: https://bootcamp.uxdesign.cc/google-foobar-googles-secret-hiring-process-bc92f011c6ad#:~:text=What%20is%20Google%20Foobar%3F,individual%20who%20cleared%20the%20challenge.
 [^note]: Please notice that as there's no official source about this challenge, the information posted here is from my own experience and from what I've found on-line from other users. 
